@@ -1,0 +1,23 @@
+/* post news css */
+.card_section{
+    /* background: transparent; */
+    border:darkseagreen solid 2px;
+    margin-top: 5px;
+    /* background-color: rgba(134, 128, 128, 0.014); */
+}
+.card_section input{
+    border: none;
+    border-bottom: 1px solid skyblue;
+}
+.card_section textarea{
+    border: none;
+    border: 1px solid skyblue;
+}
+/* post news css */
+.card_section select {
+    border: none;
+    border: 1px solid skyblue;    
+}
+.card_section select>option{
+    color: gray;
+}

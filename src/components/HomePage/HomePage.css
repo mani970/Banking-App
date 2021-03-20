@@ -1,0 +1,36 @@
+#home{
+    padding-top: 10px;
+    color:crimson;
+    text-shadow: 2px 2px darkgray;
+    text-align: center;
+}
+.home img{
+    width: 1365px;
+    height: 535px;
+    position: relative;
+  text-align: center;
+  color: white;
+}
+ .home h1 {
+     color: rgb(26, 26, 37);
+     text-shadow: 1px 1px rgb(240, 231, 231);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    /* font-weight: 130px; */
+    font-size: 50px;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+  }
+  .home h5 {
+    color: red;
+    text-shadow: 2px 2px gray;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   /* font-weight: 130px; */
+   font-size: 40px;
+   font-style: italic;
+   transform: translate(-50%, -50%);
+ }
+ 

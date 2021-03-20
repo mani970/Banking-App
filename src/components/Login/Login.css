@@ -1,0 +1,67 @@
+/* login.js page */
+ .login button{
+    background-color: #1c9bf0;
+    color: #fff;
+    border: 2px solid #fff;
+    /* width: 100%; */
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+ }
+ .login button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid skyblue;
+  }
+  /* login.js page */
+
+
+  /* login form */
+  .loginForm input {
+   padding: 10px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   text-indent: 5px;
+   /* border: 1px solid #cfcfcf; */
+   border-bottom: 3px solid skyblue;
+ }
+.loginForm input::placeholder {
+   font-size: 1.1em;
+   font-weight: lighter;
+   color: #999;
+ }
+ .loginForm button{
+   background-color: #1c9bf0;
+   color: #fff;
+   border: 2px solid #fff;
+   /* width: 100%; */
+   margin-top: 1em;
+   padding: 5px 0px;
+   font-size: 1.3em;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-bottom: 0.1em;
+   cursor: pointer;
+}
+.loginForm button:hover {
+   color: #519e8a;
+   background-color: #fff;
+   border: 2px solid skyblue;
+ }
+.loginForm {
+  color: #f1f1f1; /* Grey text */
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
